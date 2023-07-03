@@ -6,7 +6,7 @@
   const wojowniczka = document.getElementById('wojowniczka')
   const valkiries = ['Zdzisława', 'Dobrawa', 'Dobrosława', 'Budzisława','Boguchwała', 'Biezdziadka', 'Chwalimira', 'Chwalisława', 'Czcibora', 'Cieszysława', 'Dobrosułka']
   const names = ['Bożydar', 'Zdzisław', 'Mieszko', 'Mściwój', 'Zasław', 'Moczywój', 'Bezprym', 'Będzimir', 'Bezluj', 'Chwalisław', 'Ciecimar', 'Godzimir'];
-  const prefixes = ['bogowie wybrali imię', 'Twoje imię to',]
+  const prefixes = ['bogowie wybrali imię', 'O niebiosa! ', 'Perun rzekł: ']
 
   const loader = document.querySelector('.loader')
 // math.floor sprowadza do liczb całkowitych, math random wprowadza losowość z takim samym prawdopodobieństwem dla każdej liczby. 

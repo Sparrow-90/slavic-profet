@@ -82,7 +82,8 @@ button{
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    transition: .1s ease-in
+    transition: .1s ease-in;
+    cursor: pointer;
 }
 
 button:hover{
@@ -107,9 +108,13 @@ label{
     font-size: 18px;
 }
 
+input{
+
+    transform: scale(1.5);
+}
 
 input:checked{
-accent-color:#C26A55;;
+accent-color:#C26A55;
 }
 
 .name{
