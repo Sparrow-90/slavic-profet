@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/hram-bg.png);
+  background-size:auto;
+  background-position: 0 10%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    flex: 1;
+    background: linear-gradient(180deg, rgba(74, 58, 41, 0.70) 0%, rgba(58, 113, 118, 0.32) 100%);
+    box-shadow: 8px 7px 21px -3px rgba(0, 0, 0, 0.60);
+}
+
+.main-text{
+color: #EEC1A6;
+font-size: 32px;
+font-family: Fjord;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 440px;
+height: 406px;
+}
+
+.section-2{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profet-container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    align-items: center;
+    width: 570px;
+    height: 632px;
+    border-radius: 33px;
+    background: linear-gradient(180deg, #292E17 0%, rgba(74, 58, 41, 0.70) 53.13%, rgba(58, 113, 118, 0.60) 100%);
+    box-shadow: 3px 4px 20px 0px rgba(0, 0, 0, 0.40);
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+
+.profet-title{
+display: flex;
+justify-content: center;
+width: 100%;
+
+}
+button{
+    width: 238px;
+    min-height: 65px;
+    border-radius: 13px;
+    border: none;
+    background: linear-gradient(180deg, #DC7F6A 0%, rgba(219, 39, 20, 0.21) 100%);
+    color: #EEC1A6;
+    font-size: 32px;
+    font-family: Fjord;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: .1s ease-in
+}
+
+button:hover{
+    background-color: #3b2b27;
+    /* background: linear-gradient(180deg, #a05c4d 0%, rgba(219, 39, 20, 0.21) 100%); */
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    color: #EEBEA4;
+font-size: 14px;
+font-family: Fjord;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+label{
+    font-size: 18px;
+}
+
+
+input:checked{
+accent-color:#C26A55;;
+}
+
+.name{
+    width: 424px;
+    color: #EEC1A6;
+text-align: center;
+text-shadow: 2px 4px 15px 0px rgba(0, 0, 0, 0.50);
+font-size: 32px;
+font-family: Fjord;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+/* transition: opacity .2s ease-in; */
+}
+
+.loader {
+    position: relative;
+    left: -36%;
+    width: 74px;
+    height: 74px;
+    border-radius: 10px;
+    display: none;
+  }
+  
+  .loader div {
+    width: 8%;
+    height: 24%;
+    background: #EEC1A6;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    opacity: 0;
+    border-radius: 50px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    animation: fade458 1s linear infinite;
+  }
+  
+  @keyframes fade458 {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0.25;
+    }
+  }
+  
+  .loader .bar1 {
+    transform: rotate(0deg) translate(0, -130%);
+    animation-delay: 0s;
+  }
+  
+  .loader .bar2 {
+    transform: rotate(30deg) translate(0, -130%);
+    animation-delay: -1.1s;
+  }
+  
+  .loader .bar3 {
+    transform: rotate(60deg) translate(0, -130%);
+    animation-delay: -1s;
+  }
+  
+  .loader .bar4 {
+    transform: rotate(90deg) translate(0, -130%);
+    animation-delay: -0.9s;
+  }
+  
+  .loader .bar5 {
+    transform: rotate(120deg) translate(0, -130%);
+    animation-delay: -0.8s;
+  }
+  
+  .loader .bar6 {
+    transform: rotate(150deg) translate(0, -130%);
+    animation-delay: -0.7s;
+  }
+  
+  .loader .bar7 {
+    transform: rotate(180deg) translate(0, -130%);
+    animation-delay: -0.6s;
+  }
+  
+  .loader .bar8 {
+    transform: rotate(210deg) translate(0, -130%);
+    animation-delay: -0.5s;
+  }
+  
+  .loader .bar9 {
+    transform: rotate(240deg) translate(0, -130%);
+    animation-delay: -0.4s;
+  }
+  
+  .loader .bar10 {
+    transform: rotate(270deg) translate(0, -130%);
+    animation-delay: -0.3s;
+  }
+  
+  .loader .bar11 {
+    transform: rotate(300deg) translate(0, -130%);
+    animation-delay: -0.2s;
+  }
+  
+  .loader .bar12 {
+    transform: rotate(330deg) translate(0, -130%);
+    animation-delay: -0.1s;
+  }
+  
